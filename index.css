@@ -1,0 +1,28 @@
+
+.navbar {
+    background: rgb(15, 49, 143);
+    background: linear-gradient(27deg, rgb(69, 12, 224) 0%, rgb(13, 76, 212) 100%);
+}
+body {
+    background: rgb(9, 95, 209);
+    background: linear-gradient(90deg, rgb(16, 68, 180) 0%, rgb(16, 106, 148) 31%, rgb(5, 46, 99) 100%);
+}
+.card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+.card img {
+    width: 100%;
+    height: auto;
+}
+.card-title {
+    color: #fff;
+    background-color: rgba(0,0,0,0.5);
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+}
